@@ -133,13 +133,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case LT(_LOWER, KC_SPACE):
-      return 150;
+      return 180;
     case LT(_RAISE, KC_SPACE):
-      return 150;
+      return 180;
     case TD(TD_DBQT):
       return 230;
     case TD(TD_ENBS):
-      return 160;
+      return 170;
     default:
       return 200;
   }
